@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/biancaluciamusic/static/css/main.5f361e03.chunk.css",
+    "main.js": "/biancaluciamusic/static/js/main.83b3f5ae.chunk.js",
+    "main.js.map": "/biancaluciamusic/static/js/main.83b3f5ae.chunk.js.map",
+    "runtime-main.js": "/biancaluciamusic/static/js/runtime-main.40468a82.js",
+    "runtime-main.js.map": "/biancaluciamusic/static/js/runtime-main.40468a82.js.map",
+    "static/js/2.8d367c86.chunk.js": "/biancaluciamusic/static/js/2.8d367c86.chunk.js",
+    "static/js/2.8d367c86.chunk.js.map": "/biancaluciamusic/static/js/2.8d367c86.chunk.js.map",
+    "index.html": "/biancaluciamusic/index.html",
+    "precache-manifest.b51300b769f16f75ac14a4aacbb6b82f.js": "/biancaluciamusic/precache-manifest.b51300b769f16f75ac14a4aacbb6b82f.js",
+    "service-worker.js": "/biancaluciamusic/service-worker.js",
+    "static/css/main.5f361e03.chunk.css.map": "/biancaluciamusic/static/css/main.5f361e03.chunk.css.map",
+    "static/js/2.8d367c86.chunk.js.LICENSE.txt": "/biancaluciamusic/static/js/2.8d367c86.chunk.js.LICENSE.txt",
+    "static/media/logo.svg": "/biancaluciamusic/static/media/logo.5d5d9eef.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.40468a82.js",
+    "static/js/2.8d367c86.chunk.js",
+    "static/css/main.5f361e03.chunk.css",
+    "static/js/main.83b3f5ae.chunk.js"
+  ]
+}
