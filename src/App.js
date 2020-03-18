@@ -1,6 +1,12 @@
 import React from 'react';
 import logo from './logo.svg';
 import './App.css';
+import Header from './components/Header';
+import Footer from './components/Footer';
+
+import Home from './pages/Home';
+import About from './pages/About';
+
 import {
   BrowserRouter as Router,
   Switch,
@@ -13,31 +19,15 @@ function App() {
     <Router>
       <div className="App">
         <div>
-          <nav>
-            <ul>
-              <li>
-                <Link to="/">Home</Link>
-              </li>
-              <li>
-                <Link to="/about">About</Link>
-              </li>
-              <li>
-                <Link to="/users">Users</Link>
-              </li>
-            </ul>
-          </nav>
+          <Header />
         </div>
         <Switch>
-          <Route path="/about">
-            <h1>About</h1>
-          </Route>
-          <Route path="/users">
-            <h1>Users</h1>
-          </Route>
-          <Route path="/">
-            <h1>Home</h1>
+          <Route path="/about" component={About} />
+          <Route exact path="/">
+            <Home />
           </Route>
         </Switch>
+        <Footer />
       </div>
     </Router>
   );

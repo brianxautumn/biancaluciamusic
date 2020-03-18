@@ -11,3 +11,28 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+#home{
+  background-image: url('../src/img/bg1.jpg');
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+#about{
+  background-image: url('../src/img/bg4.jpg');
+}
+
+.caption-content {
+  text-shadow: 4px 3px 5px rgba(0,0,0,0.6);
+  color: white;
+}
+
+.caption-content{
+  text-align: center;
+}
+
+body,html,#root,.App{
+  height:100%;
+}
