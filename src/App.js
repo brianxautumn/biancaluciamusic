@@ -6,6 +6,9 @@ import Footer from './components/Footer';
 
 import Home from './pages/Home';
 import About from './pages/About';
+import Lessons from './pages/Lessons';
+import Students from './pages/Students';
+import Teaching from './pages/Teaching';
 
 import {
   BrowserRouter as Router,
@@ -23,6 +26,9 @@ function App() {
         </div>
         <Switch>
           <Route path="/about" component={About} />
+          <Route path="/lessons" component={Lessons} />
+          <Route path="/students" component={Students} />
+          <Route path="/teaching" component={Teaching} />
           <Route exact path="/">
             <Home />
           </Route>
