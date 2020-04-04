@@ -18,7 +18,7 @@ const Header = () => (
   <nav className="navbar navbar-custom  navbar-fixed-top" role="navigation">
     <div className="container">
       <div className="navbar-header">
-        <a className="navbar-brand" href="index.html">Bianca Lucia Music Studio</a>
+        <a className="navbar-brand" href="/">Bianca Lucia Music Studio</a>
       </div>
       <div className="collapse navbar-collapse" id="custom-collapse">
         <ul className="nav navbar-nav navbar-right">
