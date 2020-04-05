@@ -6,7 +6,7 @@ const Contact = ({ }) => {
     <>
       <section
         className="module module-header bg-dark bg-dark-50"
-        id="about"
+        id="contact"
         style={{
           backgroundPosition: '90% 15%;'
         }}>

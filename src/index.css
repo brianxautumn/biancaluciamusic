@@ -24,6 +24,10 @@ code {
   background-image: url('../src/img/bg4.jpg');
 }
 
+#contact{
+  background-image: url('../src/img/web_Bianca-118-Edit.jpg');
+}
+
 .caption-content {
   text-shadow: 4px 3px 5px rgba(0,0,0,0.6);
   color: white;
