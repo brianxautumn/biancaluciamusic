@@ -1,15 +1,10 @@
 import React from 'react';
-import {
-  BrowserRouter as Router,
-  Link
-} from 'react-router-dom';
+import { Link } from 'react-router-dom';
 
 /*
-    
-          <li>
-            <Link to="/teaching">Teaching</Link>
-          </li>
-          <li>
+       
+      
+              <li>
             <Link to="/students">Students</Link>
           </li>
         */
@@ -24,6 +19,9 @@ const Header = () => (
           <li><Link to="/about">About</Link></li>
           <li>
             <Link to="/lessons">Lessons</Link>
+          </li>
+          <li>
+            <Link to="/teaching">Teaching</Link>
           </li>
           <li><Link to="/contact">Contact</Link></li>
         </ul>

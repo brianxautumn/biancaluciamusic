@@ -23,12 +23,12 @@ const Lessons = ({ }) => {
       <section className="module">
         <div className="container">
           <div className="row">
-            <div className="col-xs-12">
+            <div className="col-sm-12">
               <h2 className="module-title font-alt">About Lessons</h2>
             </div>
           </div>
           <div className="row">
-            <div className="col-xs-12">
+            <div className="col-sm-12">
               <div>
                 Voice lessons support student musicians in learning to use their voices in a safe way so that they may develop a full and even range. One of the most important benefits of engaging a voice teacher is to have a professional ear assess the technique and vocal health of a singer. While our instrument, the voice, is very accessible, our physical structure makes it challenging for a singer to hear how they are really singing. (For example, consider hearing your voice in a message or video, and thinking: "Is that what I sound like?!") A vocal instructor helps musicians navigate singing through sensation--acting as true ears, ready to redirect, and support growing voices at any age and experience level.
               </div>
