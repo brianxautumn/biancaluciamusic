@@ -5,9 +5,7 @@ import {
 } from 'react-router-dom';
 
 /*
-          <li>
-            <Link to="/lessons">Lessons</Link>
-          </li>
+    
           <li>
             <Link to="/teaching">Teaching</Link>
           </li>
@@ -24,7 +22,9 @@ const Header = () => (
       <div>
         <ul className="navbar-full">
           <li><Link to="/about">About</Link></li>
-
+          <li>
+            <Link to="/lessons">Lessons</Link>
+          </li>
           <li><Link to="/contact">Contact</Link></li>
         </ul>
       </div>
