@@ -7,35 +7,27 @@ import {
 } from 'react-router-dom';
 
 /*
-        <button type="button" className="navbar-toggle">
-          <span className="sr-only">Toggle navigation</span>
-          <span className="icon-bar"></span>
-          <span className="icon-bar"></span>
-          <span className="icon-bar"></span>
-        </button>
+          <li>
+            <Link to="/lessons">Lessons</Link>
+          </li>
+          <li>
+            <Link to="/teaching">Teaching</Link>
+          </li>
+          <li>
+            <Link to="/students">Students</Link>
+          </li>
         */
 const Header = () => (
   <nav className="navbar navbar-custom  navbar-fixed-top" role="navigation">
     <div className="container">
       <div className="navbar-header">
-        <a className="navbar-brand" href="/">Bianca Lucia Music Studio</a>
+        <Link className="navbar-brand" to="/">Bianca Lucia Music Studio</Link>
       </div>
-      <div className="collapse navbar-collapse" id="custom-collapse">
-        <ul className="nav navbar-nav navbar-right">
-          <li>
-            <a href="index.php">Home</a>
-          </li>
-          <li><a href="about.php">About</a></li>
-          <li>
-            <a href="lessons.php">Lessons</a>
-          </li>
-          <li>
-            <a href="teaching.php" >Teaching</a>
-          </li>
-          <li>
-            <a href="students.php" >Students</a>
-          </li>
-          <li><a href="contact.php">Contact</a></li>
+      <div>
+        <ul className="navbar-full">
+          <li><Link to="/about">About</Link></li>
+
+          <li><Link to="/contact">Contact</Link></li>
         </ul>
       </div>
     </div>

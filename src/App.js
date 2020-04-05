@@ -9,6 +9,7 @@ import About from './pages/About';
 import Lessons from './pages/Lessons';
 import Students from './pages/Students';
 import Teaching from './pages/Teaching';
+import Contact from './pages/Contact';
 
 import {
   BrowserRouter as Router,
@@ -29,6 +30,7 @@ function App() {
           <Route path="/lessons" component={Lessons} />
           <Route path="/students" component={Students} />
           <Route path="/teaching" component={Teaching} />
+          <Route path="/contact" component={Contact} />
           <Route exact path="/">
             <Home />
           </Route>

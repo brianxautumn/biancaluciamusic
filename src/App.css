@@ -1603,3 +1603,14 @@ Multi-columns-row
 .hs-caption{
   z-index: 1;
 }
+
+.navbar-full{
+  display: flex;
+  margin:0;
+}
+
+.navbar-full li{
+  list-style-type: none;
+  padding: 5px;
+  margin:0;
+}
