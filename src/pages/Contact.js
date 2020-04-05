@@ -27,7 +27,7 @@ const Contact = ({ }) => {
               <iframe
                 src="https://docs.google.com/forms/d/e/1FAIpQLSfbyowd-YpmxdJlAeJ-dWjQkUy7QEFENyrI7yrJOidmOyQ-Qg/viewform?embedded=true"
                 width="100%"
-                height="700"
+                height="900"
                 frameborder="0"
                 marginheight="0"
                 marginwidth="0">
