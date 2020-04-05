@@ -7,9 +7,7 @@ const Contact = ({ }) => {
       <section
         className="module module-header bg-dark bg-dark-50"
         id="contact"
-        style={{
-          backgroundPosition: '90% 15%;'
-        }}>
+      >
         <div className="container">
           <div className="row">
             <div className="col-sm-6 col-sm-offset-3">
@@ -28,9 +26,9 @@ const Contact = ({ }) => {
                 src="https://docs.google.com/forms/d/e/1FAIpQLSfbyowd-YpmxdJlAeJ-dWjQkUy7QEFENyrI7yrJOidmOyQ-Qg/viewform?embedded=true"
                 width="100%"
                 height="900"
-                frameborder="0"
-                marginheight="0"
-                marginwidth="0">
+                frameBorder="0"
+                marginHeight="0"
+                marginWidth="0">
                 Loading…
                 </iframe>
             </div>
