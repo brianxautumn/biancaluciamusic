@@ -9,9 +9,9 @@ const Home = () => (
   >
     <div className="hs-caption container">
       <div className="caption-content">
-        <div className="hs-title-size-4 font-alt m-b-30">
+        <h1 className="hs-title-size-4 font-alt m-b-30">
           Bianca Lucia Music Studio
-      </div>
+        </h1>
         <div className="hs-title-size-1 font-inc">
           Bianca Lucia Dominguez is a soprano and music instructor, based in the Bay Area.
       </div>
