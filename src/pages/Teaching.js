@@ -1,5 +1,4 @@
 import React from 'react';
-import img from '../img/teaching2.jpg';
 
 const Teaching = ({ }) => {
   return (
@@ -28,7 +27,7 @@ const Teaching = ({ }) => {
             </div>
           </div>
           <div class="row">
-            <div class="col-sm-6">
+            <div class="col-sm-12">
               <em><strong>M</strong></em>ake choices that help you and others learn.<br />
               <em><strong>U</strong></em>se instruments and materials with care.<br />
               <em><strong>S</strong></em>ing, speak and play only when asked.<br />
@@ -37,9 +36,6 @@ const Teaching = ({ }) => {
               <p>Ms. Dominguez is currently working full-time in the Mount Diablo Unified School District, teaching Elementary School Music to students of two schools in Concord and Pleasant Hill. MDUSD provides weekly music classes to students in 1st through 5th grades. Ms. Dominguez's students at all grade levels obtain theory and musicianship instruction as well as vocal and instrumental performance experience. Classes range from introductory level exploring instruments, traditional worksheet study, utilizing games which apply new concepts, to rehearsing vocal and instrumental works. </p>
               <p>No matter the lesson, the classroom value of teamwork, and thinking of the class as an ensemble is always stressed to the fullest extent. Students are rewarded individually for brave positive participation, classmate encouragement and respectful attitudes; exemplary classes are rewarded through school-wide based systems. Each grade level has at least one performance during the year. Both schools have just presented fantastic and well received December 2014 concerts, Songs for Our Winter, featuring the 2nd and 4th Grade students.</p>
               <p>With such a large student population across a wide range of skill levels, Ms. Dominguez collaborates regularly with colleagues in the district, sharing and creating new lessons for all elementary students within the MDUSD. Within each school, Ms. Dominguez is thrilled to work with supportive staff and faculties, in facilitating extracurricular opportunities, like Spring musicals, talent shows and choirs.</p>
-            </div>
-            <div class="col-sm-6">
-              <img src={img} alt="/" />
             </div>
           </div>
         </div>
