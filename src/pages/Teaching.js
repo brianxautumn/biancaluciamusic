@@ -19,15 +19,15 @@ const Teaching = ({ }) => {
           </div>
         </div>
       </section>
-      <section class="module">
-        <div class="container">
-          <div class="row">
-            <div class="col-sm-12">
-              <h2 class="module-title font-alt">Classroom Music</h2>
+      <section className="module">
+        <div className="container">
+          <div className="row">
+            <div className="col-sm-12">
+              <h2 className="module-title font-alt">Classroom Music</h2>
             </div>
           </div>
-          <div class="row">
-            <div class="col-sm-12">
+          <div className="row">
+            <div className="col-sm-12">
               <em><strong>M</strong></em>ake choices that help you and others learn.<br />
               <em><strong>U</strong></em>se instruments and materials with care.<br />
               <em><strong>S</strong></em>ing, speak and play only when asked.<br />

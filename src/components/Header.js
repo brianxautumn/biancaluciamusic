@@ -1,5 +1,5 @@
 import React from 'react';
-import { Link } from 'react-router-dom';
+import { Link, NavLink } from 'react-router-dom';
 
 /*
        
@@ -9,21 +9,21 @@ import { Link } from 'react-router-dom';
           </li>
         */
 const Header = () => (
-  <nav className="navbar navbar-custom  navbar-fixed-top" role="navigation">
+  <nav className="navbar navbar-custom  navbar-fixed-top" aria-label="Main">
     <div className="container">
       <div className="navbar-header">
         <Link className="navbar-brand" to="/">Bianca Lucia Music Studio</Link>
       </div>
       <div>
         <ul className="navbar-full">
-          <li><Link to="/about">About</Link></li>
+          <li><NavLink to="/about">About</NavLink></li>
           <li>
-            <Link to="/lessons">Lessons</Link>
+            <NavLink to="/lessons">Lessons</NavLink>
           </li>
           <li>
-            <Link to="/teaching">Teaching</Link>
+            <NavLink to="/teaching">Teaching</NavLink>
           </li>
-          <li><Link to="/contact">Contact</Link></li>
+          <li><NavLink to="/contact">Contact</NavLink></li>
         </ul>
       </div>
     </div>

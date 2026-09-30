@@ -1615,3 +1615,85 @@ Multi-columns-row
   padding: 5px;
   margin:0;
 }
+/* Accessibility */
+.footer {
+  color: #fff;
+}
+
+a:focus-visible,
+.btn:focus-visible,
+.form-control:focus-visible,
+main:focus-visible {
+  outline: 3px solid #1a5fb4;
+  outline-offset: 2px;
+}
+
+main:focus {
+  outline: 0;
+}
+
+.skip-link {
+  position: absolute;
+  left: 8px;
+  top: -100px;
+  z-index: 2000;
+  padding: 8px 16px;
+  background: #000;
+  color: #fff;
+}
+
+.skip-link:focus {
+  top: 8px;
+  color: #fff;
+}
+
+.navbar-full a.active {
+  text-decoration: underline;
+}
+
+.navbar-full a,
+.navbar-custom .navbar-brand {
+  font-size: 15px;
+}
+
+.module p a,
+.module li a {
+  text-decoration: underline;
+}
+
+a:hover,
+a:focus {
+  color: #595959;
+}
+
+.bg-dark a:hover,
+.bg-dark a:focus {
+  color: #fff;
+}
+
+/* Sticky footer: .App fills the viewport, main takes the leftover space */
+.App {
+  display: flex;
+  flex-direction: column;
+  height: auto;
+  min-height: 100%;
+}
+
+main {
+  flex: 1 0 auto;
+  display: flex;
+  flex-direction: column;
+}
+
+main > section {
+  flex-shrink: 0;
+}
+
+main > #home {
+  flex: 1 0 auto;
+  height: auto;
+}
+
+.footer {
+  margin-top: auto;
+}
